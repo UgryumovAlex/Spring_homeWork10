@@ -1,3 +1,6 @@
+/**
+ * Домашняя работа №10
+ * */
 package ru.geekbrains.homeWork10.entities;
 
 import org.springframework.context.annotation.Scope;

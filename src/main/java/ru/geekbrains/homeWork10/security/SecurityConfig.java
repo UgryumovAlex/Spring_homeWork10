@@ -1,3 +1,6 @@
+/**
+ * Домашняя работа №10
+ * */
 package ru.geekbrains.homeWork10.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +41,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.authorizeRequests()
                 .antMatchers("/products/cost/**").hasAnyRole("ADMIN","USER")
-                //.anyRequest().authenticated()
                 .and()
                 .formLogin()
                 .loginPage("/login")

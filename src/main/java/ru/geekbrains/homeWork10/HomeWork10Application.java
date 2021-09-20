@@ -1,3 +1,6 @@
+/**
+ * Домашняя работа №10
+ * */
 package ru.geekbrains.homeWork10;
 
 import org.springframework.boot.SpringApplication;
